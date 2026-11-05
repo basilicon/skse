@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Local only: paper drafts, reviews, talks, old experiments
+_archive/
+
+# Datasets and generated embeddings (regenerate with experiments/, see README)
+data/
+embed/
+
+# Generated figures
+results/**/*.png

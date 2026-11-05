@@ -1,0 +1,16 @@
+Dimension,Dataset,Wins,Ties,Losses
+$\mathbb{R}^{2}$,Arcene,0,6,14
+$\mathbb{R}^{2}$,GDS4278,0,8,12
+$\mathbb{R}^{2}$,GDS4516,2,18,0
+$\mathbb{R}^{4}$,Arcene,8,6,6
+$\mathbb{R}^{4}$,GDS4278,3,6,11
+$\mathbb{R}^{4}$,GDS4516,2,18,0
+$\mathbb{R}^{8}$,Arcene,16,4,0
+$\mathbb{R}^{8}$,GDS4278,5,4,11
+$\mathbb{R}^{8}$,GDS4516,6,14,0
+$\mathbb{R}^{16}$,Arcene,20,0,0
+$\mathbb{R}^{16}$,GDS4278,7,6,7
+$\mathbb{R}^{16}$,GDS4516,6,13,1
+$\mathbb{R}^{32}$,Arcene,20,0,0
+$\mathbb{R}^{32}$,GDS4278,9,11,0
+$\mathbb{R}^{32}$,GDS4516,9,11,0

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "skse"
+dynamic = ["version"]
+description = "Stochastic k-Simplex Embedding: dimensionality reduction that preserves k-simplex volumes"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ethan D. Curtis" },
+    { name = "Preston Billion-Polak" },
+    { name = "Taghi M. Khoshgoftaar" },
+]
+keywords = ["dimensionality reduction", "embedding", "manifold learning", "simplex", "pytorch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.23",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+# Everything needed to reproduce the paper's experiments in experiments/
+experiments = [
+    "pandas",
+    "scikit-learn",
+    "umap-learn",
+    "scipy",
+    "matplotlib",
+]
+dev = ["pytest", "build", "twine"]
+
+[tool.hatch.version]
+path = "src/skse/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/skse"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/skse", "tests", "README.md", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

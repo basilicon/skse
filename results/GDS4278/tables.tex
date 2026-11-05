@@ -1,0 +1,50 @@
+\begin{table}
+\caption{Performance comparison for AUPRC}
+\label{tab:results_auprc}
+\begin{center}
+\begin{tabular}{lllllll}
+\toprule
+ & 2 & 4 & 8 & 16 & 32 & Average \\
+Technique &  &  &  &  &  &  \\
+\midrule
+2-simplex & 0.2355 & 0.3937 & 0.4828 & \textbf{0.5530} & \textbf{0.6039} & \textbf{0.4538} \\
+3-simplex & 0.2651 & 0.2932 & 0.4703 & 0.5138 & 0.5476 & 0.4180 \\
+5-simplex & 0.2915 & 0.2788 & 0.3878 & 0.4745 & 0.5160 & 0.3897 \\
+8-simplex & \textit{0.2246} & 0.3249 & 0.3586 & 0.4314 & 0.5046 & 0.3688 \\
+10-simplex & 0.2624 & 0.3276 & 0.3106 & 0.4144 & 0.5001 & 0.3630 \\
+Best simplex & 0.2915 & 0.3937 & 0.4828 & \textbf{0.5530} & \textbf{0.6039} & \textbf{0.4538} \\
+AE & 0.2689 & 0.3930 & \textbf{0.5285} & 0.5280 & 0.5349 & 0.4507 \\
+Isomap & 0.3002 & 0.3649 & 0.4739 & 0.4786 & 0.4651 & 0.4165 \\
+UMAP & 0.2955 & \textbf{0.4298} & 0.4589 & 0.4918 & 0.5025 & 0.4357 \\
+t-SNE & \textbf{0.3889} & \textit{0.2629} & \textit{0.2062} & \textit{0.1742} & \textit{0.1702} & \textit{0.2405} \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\caption{Performance comparison for ACC}
+\label{tab:results_acc}
+\begin{center}
+\begin{tabular}{lllllll}
+\toprule
+ & 2 & 4 & 8 & 16 & 32 & Average \\
+Technique &  &  &  &  &  &  \\
+\midrule
+2-simplex & 0.8387 & 0.8489 & 0.8648 & \textbf{0.8759} & \textbf{0.8823} & \textbf{0.8621} \\
+3-simplex & 0.8411 & 0.8415 & 0.8596 & 0.8671 & 0.8734 & 0.8565 \\
+5-simplex & 0.8444 & 0.8399 & 0.8511 & 0.8575 & 0.8714 & 0.8529 \\
+8-simplex & 0.8393 & 0.8440 & 0.8528 & 0.8608 & 0.8620 & 0.8518 \\
+10-simplex & 0.8386 & 0.8435 & 0.8470 & 0.8571 & 0.8653 & 0.8503 \\
+Best simplex & 0.8444 & 0.8489 & 0.8648 & \textbf{0.8759} & \textbf{0.8823} & \textbf{0.8621} \\
+AE & 0.8402 & 0.8482 & \textbf{0.8691} & 0.8689 & 0.8721 & 0.8597 \\
+Isomap & \textit{0.8350} & \textit{0.8367} & 0.8525 & 0.8550 & 0.8529 & 0.8464 \\
+UMAP & 0.8439 & \textbf{0.8592} & 0.8610 & 0.8623 & 0.8655 & 0.8584 \\
+t-SNE & \textbf{0.8515} & 0.8437 & \textit{0.7825} & \textit{0.7118} & \textit{0.7010} & \textit{0.7781} \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+

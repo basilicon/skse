@@ -1,0 +1,23 @@
+\begin{table}
+\caption{Embedding execution time comparison (seconds, lower is better)}
+\label{tab:results_embed_time}
+\begin{center}
+\begin{tabular}{lllllll}
+\toprule
+ & 2 & 4 & 8 & 16 & 32 & Overall \\
+Technique &  &  &  &  &  &  \\
+\midrule
+2-simplex & \textit{14.8668} & 14.7584 & 14.3587 & 14.4219 & 14.5323 & 14.5876 \\
+3-simplex & 14.6457 & \textit{14.9288} & 14.5767 & 14.5691 & \textit{14.8417} & \textit{14.7124} \\
+5-simplex & 13.6484 & 14.7772 & 14.8985 & 14.5696 & 14.6343 & 14.5056 \\
+8-simplex & 13.6290 & 13.8841 & \textit{15.1473} & \textit{14.6532} & 14.6963 & 14.4020 \\
+10-simplex & 13.4010 & 13.8669 & 14.2225 & 14.6111 & 14.5629 & 14.1329 \\
+Best simplex & 13.4010 & 13.8669 & 14.2225 & 14.4219 & 14.5323 & 14.1329 \\
+AE & 14.5036 & 14.5649 & 14.6390 & 14.4750 & 14.6994 & 14.5764 \\
+Isomap & \textbf{0.3421} & \textbf{0.3307} & \textbf{0.3231} & \textbf{0.3282} & \textbf{0.3266} & \textbf{0.3302} \\
+UMAP & 1.0991 & 0.3661 & 0.3548 & 0.3731 & 0.4258 & 0.5238 \\
+t-SNE & 2.9697 & 3.1349 & 3.1693 & 3.2858 & 3.5544 & 3.2228 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
